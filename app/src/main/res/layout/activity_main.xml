@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.android.ex.chips.RecipientEditTextView
+        android:id="@+id/email_retv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_addresses"
+        android:inputType="textEmailAddress|textMultiLine|textCapWords"
+        android:maxLines="10"
+        android:minHeight="58dp" />
+
+    <com.android.ex.chips.RecipientEditTextView
+        android:id="@+id/phone_retv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_numbers"
+        android:inputType="textEmailAddress|textMultiLine|textCapWords"
+        android:maxLines="10"
+        android:minHeight="58dp" />
+
+</LinearLayout>
